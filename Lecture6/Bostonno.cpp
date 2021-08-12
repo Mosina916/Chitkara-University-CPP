@@ -6,7 +6,7 @@ using namespace std;
 int main(){
 
 	int no;
-	cin>>no;//378 /
+	cin>>no;//1
 	int temp=no;
 
 	int sum=0,sumpf=0;
