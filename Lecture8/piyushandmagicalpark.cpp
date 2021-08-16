@@ -16,7 +16,7 @@ int main(){
 	{
 		for (int j = 0; j <m; j++)
 		{
-			cin>>arr[i][j];
+			cin>>arr[i];
 		}
 	}
 
