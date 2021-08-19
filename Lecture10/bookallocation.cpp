@@ -6,11 +6,11 @@ bool agarmaimidkicapabilityrakhtihunkyamerisaaribooksfinishhorahi(int *books,int
 	int student=1;
 	int currrentpages=0;
 
-	for(int i=0;i<n;i++){ //10 20 30 40
-		if(currrentpages+books[i]>capability){ //70
+	for(int i=0;i<n;i++){ //10 20 30 40 // 2
+		if(currrentpages+books[i]>capability){ //54
 			// tum iss student ko assign nahi kar sakte
 
-			currrentpages=books[i];
+			currrentpages=books[i]; //40
 
 			student++; //3
 			if(student>m){
@@ -21,7 +21,7 @@ bool agarmaimidkicapabilityrakhtihunkyamerisaaribooksfinishhorahi(int *books,int
 
 		}
 		else{
-			currrentpages=currrentpages+books[i]; //30+30=60
+			currrentpages=currrentpages+books[i]; //10+20=30
 		}
 	}
 
