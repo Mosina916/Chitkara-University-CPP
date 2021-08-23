@@ -26,6 +26,9 @@ ll search(ll n,ll k,ll s,ll e,ll ans){
 }
 
 
+
+
+
 int main(){ 
 
 	int t;
