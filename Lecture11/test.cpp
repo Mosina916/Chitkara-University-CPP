@@ -15,11 +15,8 @@ bool iamabletoplaceallcowsatdistancemid(int *stalls,int n,int tc,int dist){
 			}
 		}
 	}
-	if(cp<tc){
-		return false;
-	}
-	return true;
 
+		return false;
 
 }
 int main(){
