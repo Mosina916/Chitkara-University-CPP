@@ -19,7 +19,7 @@ int main(){
 
 	}
 
-	cout<<cou<<endl;
+	cout<<cou<<endl; //15 --101
 
 
 cout<<__builtin_popcount(no2)<<endl;
