@@ -7,9 +7,6 @@ void towerofhanio(int n,char src,char helper,char dest){
 		return;
 	}
 
-
-
-
 	// recursive case
 	towerofhanio(n-1,src,dest,helper);
 	cout<<"move disk "<<n<<" from "<<src<<" to "<<dest<<endl;
