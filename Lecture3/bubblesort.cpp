@@ -46,19 +46,6 @@ int main(){
 
 	// 			// swap(arr[j],arr[j+1]);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 	// 		}
 
 	// 	}
@@ -67,7 +54,7 @@ int main(){
 
 
 
-
+	int coun=0;
 	// bubble sort optimized
 
 		for(int i=0;i<=n-2;i++){
@@ -76,6 +63,7 @@ int main(){
 			if(arr[j]>arr[j+1]){
 
 				swap(arr[j],arr[j+1]);
+				coun++;
 				cnt++;
 			}
 
@@ -86,6 +74,9 @@ int main(){
 		}
 
 	}
+
+
+	cout<<coun<<endl;
 
 
 	cout<<"After sorting "<<endl;
