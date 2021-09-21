@@ -16,8 +16,6 @@ bool kyanumberalreadycolrowyasquarematrixmaipresentnahihai(int mat[9][9],int i,i
 	// 	}
 	// }
 
-
-
 	// root(n)*root(n) square matrix check
 	n=sqrt(n);//3
 	int starti=(i/n)*n;//3
