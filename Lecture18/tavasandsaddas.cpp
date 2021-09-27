@@ -2,7 +2,6 @@
 using namespace std;
 int main(){
 
-
 	char a[20];
 	// "74747"
 	cin>>a;
@@ -22,9 +21,6 @@ int main(){
 
 
 	cout<<ans+1<<endl;
-
-
-
 
 	return 0;
 }
